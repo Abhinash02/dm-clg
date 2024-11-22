@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box; 
+	 text-align: justify;
+}
+body{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;  
+}
+.about-section{
+    background: url(abhi3.jpeg) no-repeat left;
+    background-size: 70%;
+    overflow: hidden;
+    width: 10000px;
+    padding: 10px 0;
+    border: 8px solid black;
+	background-color:#afeeee;		/* color: PaleTurquoise*/   
+}
+.inner-container{
+    width: 55%;
+    float: right;
+    padding: 170px;
+	background-color:#fffaf0;    /* color: FloralWhite*/	
+}
+.inner-container h1{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 1000;
+}
+.text{
+    color: #545454;            /* Gray33 color */
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.N
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+

@@ -1,0 +1,203 @@
+@import "https://fonts.googleapis.com/css?family=Raleway:100,400,700";
+@font-face
+{
+	
+	font-style:normal
+}/*! normalize.css v3.0.2 | MIT License | git.io/normalize */	
+body
+h1
+{
+	
+	line-height:1.05;
+	letter-spacing:-2px
+	
+}
+
+	#hero                   /* msc*/
+{
+	position:relative;
+	width:1440px;
+	max-width:95%;
+	height:600px;
+	margin:30px auto;
+	background-color:#efefef;
+	
+}
+	#hero
+{
+	margin:15px auto
+}
+	#hero .wrapper        /* TOP */
+{
+	display:flex;
+	max-width:95%;
+	height:100%;
+	margin:0 auto;
+	align-items:center;
+    
+}
+	#hero .wrapper .welcome
+	text-align:justify;
+{
+	width:45%
+}
+	#hero .wrapper .welcome 
+	h1                              /* Heading BCA */
+{
+	margin-top:0;
+	margin-bottom:30px;
+	font-size:42px;
+	font-family:"Raleway",sans-serif;
+	font-weight:100
+}
+	#hero .wrapper .BCA
+{
+	text-align:justify;
+	width:55%;
+}
+	#hero .wrapper .BCA img      /* bca */
+{
+	width:90%;
+}
+	#about
+{
+	height:600px;
+	margin:30px auto;
+	background-color:#efefef;
+	text-align:justify;
+}	
+	#about .wrapper          /* BA */
+{
+	display:flex;
+	width:1500px;
+	height:100%;
+	margin:0 auto;
+   align-items:center
+   text-align:justify;
+}	
+	#about .wrapper .camera img    /* msc math */
+{
+	width:85%
+}
+	#about .wrapper .blurb
+{
+	width:55%
+}
+	#about .wrapper .blurb 
+	h2                            /* msc  */
+{
+	margin-top:0;
+	margin-bottom:30px;
+	font-size:42px;
+	font-family:"Raleway",sans-serif;
+	font-weight:100
+	text-align:justify;
+}
+	p                              /* pgdca */
+{
+	max-width:550px;
+	margin-bottom:50px
+	text-align:justify;
+}
+	@media (max-width: 767px)
+{
+	#full-slide   				   /* add on courses */
+	i
+{
+}
+	#full-slide .next
+{
+	right:0
+}
+}
+	
+	#three-slide                      /* Bottom */
+{
+	position:relative;
+	width:1440px;
+	max-width:95%;
+	height:600px;
+	margin:30px auto;
+	background-color:#efefef;
+	overflow:hidden
+}
+	@media (max-width: 768px)
+{
+	#three-slide
+{
+	margin:15px auto
+}
+}
+	#three-slide .wrapper .slider
+	li
+{
+	position:absolute;
+	top:50%;
+	-webkit-transform:translateY(-50%);
+	transform:translateY(-50%);
+	width:40%;
+	opacity:0
+}	
+	#three-slide .wrapper .slider 
+	li img
+{
+	width:100%
+}
+	#three-slide .wrapper .slider .back
+{
+	left:0;
+	opacity:1	
+}
+	#three-slide .wrapper .slider .current
+{
+	left:50%;
+	transform:translate(-50%, -50%) scale(1.3);
+	opacity:1;
+	z-index:10
+}
+	#three-slide .wrapper .slider .front
+	{
+		right:0;
+		opacity:1
+	} 						/* Bottom */
+	}
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+	height: 72px;
+	transition: all 0.5s;
+	z-index: 997;
+	transition: all 0.5s;
+	background: #01345B;
+	box-shadow: 0px 2px 15px rgba(255, 254, 254, 0.1);
+  }
+  
+  #header .logo h1 {
+	font-size: 30px;
+	margin: 0;
+	line-height: 1;
+	font-weight: 400;
+	letter-spacing: 2px;
+  }
+  
+  #header .logo h1 a,
+  #header .logo h1 a:hover {
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  #header .logo img {
+	padding: 0;
+	margin: 0;
+	max-height: 75px;
+  }
+  
+  #main {
+	margin-top: 72px;
+  }
+
+
+
+
+	
